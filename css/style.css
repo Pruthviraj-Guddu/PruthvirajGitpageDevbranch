@@ -1,0 +1,97 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+    color: rgba(0, 0, 0, 0.8);
+    line-height: 1.65;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+/* Header Styles */
+.navBar {
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: #fff;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.2);
+    z-index: 2000;
+}
+
+.navBar .logo h1 {
+    color: #333;
+    font-size: 2rem;
+    letter-spacing: 0.2rem;
+}
+
+.navBar .navBar__menu ul {
+    display: flex;
+    list-style-type: none;
+}
+
+.navBar .navBar__menu ul li {
+    margin: 1.5rem;
+}
+
+.navBar .navBar__menu ul li a {
+    position: relative;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 1.5rem;
+    padding-bottom: 1rem;
+    color: #333;
+    transition: 0.3s;
+}
+
+/* Section Styles */
+.sec1, .sec2, .sec3, .sec4 {
+    position: relative;
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+/* Footer Styles */
+footer {
+    color: #fff;
+    background: #333;
+    position: relative;
+    font-size: 100%;
+}
+
+.footer-body {
+    margin-bottom: 40px;
+    padding: 25px;
+}
+
+.footer-copyright {
+    width: 100%;
+    background: #111;
+    padding: 25px;
+    position: absolute;
+    bottom: -40px;
+    left: 0px;
+    text-align: center;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    /* Add responsive styles here */
+}
