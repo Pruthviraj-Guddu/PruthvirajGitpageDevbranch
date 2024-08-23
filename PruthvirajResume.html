@@ -14,8 +14,10 @@
       body {
         font-family: "Anek Devanagari", sans-serif;
         margin: 0;
-        padding: 20px;
+        padding: 10px; /* Reduce padding to save space */
         background-color: #f4f4f4;
+        font-size: 15px; /* Set smaller font size for the entire document */
+        line-height: 1.1; /* Reduced line spacing */
       }
       .container {
         max-width: 800px;
@@ -53,6 +55,23 @@
       }
       ul li {
         margin-bottom: 10px;
+      }
+
+      /* Print-specific styles */
+      @media print {
+        body {
+          background-color: #fff;
+          font-size: 15px; /* Even smaller font size for printing */
+          margin: 0; /* Remove page margins */
+          padding-top: 2px; /* Reduce padding at the top */
+        }
+        .container {
+          box-shadow: none; /* Remove shadow for printing */
+          padding: 3px; /* Reduce padding for printing */
+        }
+        .section {
+          margin-bottom: 2px; /* Further reduce space between sections */
+        }
       }
     </style>
   </head>
