@@ -1,0 +1,178 @@
+{
+  "meta": {
+    "theme": "actual"
+  },
+  "basics": {
+    "name": "Pruthviraj Mundargi",
+    "label": "Front-End Developer",
+    "image": "https://avatars.githubusercontent.com/u/59650445?v=4",
+    "summary": "M.S. in Computer Science with extensive experience in Cross-Platform and Android App Development. Proficient in Java, Xamarin, .NET, and SQL, seeking ",
+    "summarytr": "Front-End Developer alanında gelişimim devam ediyor. JavaScrip programlama dilinin React.JS kütüphanesi ve bağlantılı teknolojileri kullanarak web uygulamaları geliştirmekteyim. Back-End tarafında da bilgimi artırmak istiyorum. Güncel teknolojileri takip edip sektörde yer almak istiyorum.",
+    "website": "#",
+    "email": "pruthvirajam95@gmail.com",
+    "location": {
+      "city": "Leesburg",
+      "countryCode": "Virginia"
+    },
+    "profiles": {
+      "twitter": {
+        "username": "hsnaydgd",
+        "url": "https://twitter.com/hsnaydgd"
+      },
+      "github": {
+        "url": "https://github.com/Pruthviraj-Guddu",
+        "username": "Pruthviraj-Guddu"
+      },
+      "linkedin": {
+        "username": "pruthvirajma-",
+        "url": "https://www.linkedin.com/in/pruthvirajma"
+      }
+    }
+  },
+
+  "repository": [
+    {
+      "name": "Interactive Guide to Flexbox",
+      "explanation": "A tool where you can experience the use of CSS Flexbox without writing code.",
+      "tag": ["css3", "javascript", "html5"],
+      "bestLang": "css3",
+      "date": "2023.03.28",
+      "link": "https://github.com/haydogdu1990/interactive-guide-to-flexbox",
+      "viewLink": "https://haydogdu1990.github.io/interactive-guide-to-flexbox/"
+    },
+    {
+      "name": "React ile Twitter Web Clone",
+      "explanation": "Creating a twitter clone using React NextJS and Storybook",
+      "tag": ["javascript", "css3", "reactjs", "nextjs", "storybook", "svgr"],
+      "bestLang": "reactjs",
+      "date": "2023.01.15",
+      "link": "https://github.com/haydogdu1990/twitter-web-clone-react",
+      "viewLink": "https://twitter-web-clone-react-7al4.vercel.app/"
+    },
+    {
+      "name": "React Guides",
+      "explanation": "This project contains simple applications created to guide the use of React tools.",
+      "tag": ["reactjs"],
+      "bestLang": "reactjs",
+      "date": "2022.04.05",
+      "link": "https://github.com/haydogdu1990/React-Guidest",
+      "viewLink": ""
+    }
+  ],
+
+  "education": [
+    {
+      "endDate": "2012",
+      "startDate": "2008",
+      "area": "Computer Education and Instructional Technology",
+      "studyType": "Bachelor Degree",
+      "institution": "Gazi University"
+    }
+  ],
+  "references": [
+    {
+      "reference": "",
+      "name": ""
+    },
+    {
+      "reference": "",
+      "name": ""
+    },
+    {
+      "reference": "",
+      "name": ""
+    },
+    {
+      "reference": "",
+      "name": ""
+    }
+  ],
+  "skills": [
+    {
+      "keywords": [
+        "Javascript",
+        "React.JS",
+        "Node.JS",
+        "Next.JS",
+        "Vite",
+        "Git",
+        "React Router",
+        "Redux Toolkit",
+        "Styled Components",
+        "SASS",
+        "Tailwind CSS"
+      ],
+      "level": "Junior",
+      "name": "Frontend",
+      "situation": "Technologies I Use"
+    },
+    {
+      "keywords": [
+        "Jest.JS",
+        "FastAPI",
+        "GraphQL",
+        "React Query",
+        "Formik",
+        "React Hook Form",
+        "React Native",
+
+        "Express.JS",
+
+        "TypeScript",
+
+        "Go",
+
+        "MongoDB",
+        "PostgreSQL"
+      ],
+      "level": "Junior",
+      "name": "Frontend",
+      "situation": "What i want to learn..."
+    }
+  ],
+  "awards": [
+    {
+      "title": "",
+      "awarder": ""
+    }
+  ],
+  "work": [
+    {
+      "summary": "edelkrone is a corporate company that produces camera equipment. I have been working as a laser marking manager in this company for 3 years.",
+      "website": "https://edelkrone.com/",
+      "name": "Edelkrone",
+      "location": "Ankara",
+      "position": "Laser Marking Manager",
+      "startDate": "2019",
+      "highlights": ["", "", "", ""]
+    },
+
+    {
+      "summary": "Europower Enerji offers a wide range of engineering services such as project design, project management, automation & SCADA, commissioning, inspection, field tests and training services. I worked in this company as an IT Technical Service Specialist for 1 year.",
+      "website": "https://www.europowerenerji.com.tr/",
+      "name": "Europower Enerji",
+      "location": "Ankara",
+      "position": "IT Technical Service Specialist",
+      "startDate": "2017",
+      "highlights": ["", "", "", ""]
+    },
+    {
+      "summary": "Europower Enerji offers a wide range of engineering services such as project design, project management, automation & SCADA, commissioning, inspection, field tests and training services. I worked in this company as an Labeling and Branding Specialist for 3 year.",
+      "website": "https://www.europowerenerji.com.tr/",
+      "name": "Europower Enerji",
+      "location": "Ankara",
+      "position": "Labeling and Branding Specialist",
+      "startDate": "2015",
+      "highlights": ["", "", "", ""]
+    }
+  ],
+
+  "interests": [
+    "Drawing",
+    "Algorithm",
+    "Sudoku",
+    "Open Source",
+    "Nonogram",
+    "Risk game"
+  ]
+}
