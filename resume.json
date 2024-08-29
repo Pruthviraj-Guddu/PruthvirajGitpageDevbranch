@@ -3,75 +3,70 @@
     "theme": "actual"
   },
   "basics": {
-    "name": "Anamika Rekha",
-    "label": "Data Scientist",
-    "image": "https://avatars.githubusercontent.com/u/137219152?v=4",
-    "summary": "I am a Data Scientist with a solid foundation in data analysis, machine learning, and software development. My expertise spans across Python, SQL, and various data visualization tools like Power BI and Tableau. I have hands-on experience in creating data pipelines, conducting data analysis, and building machine learning models. I am passionate about turning complex data into actionable insights and am continuously learning new tools and technologies to stay ahead in the field.",
+    "name": "Pruthviraj Mundargi",
+    "label": "Front-End Developer",
+    "image": "https://avatars.githubusercontent.com/u/59650445?v=4",
+    "summary": "M.S. in Computer Science with extensive experience in Cross-Platform and Android App Development. Proficient in Java, Xamarin, .NET, and SQL, seeking ",
+    "summarytr": "Front-End Developer alanında gelişimim devam ediyor. JavaScrip programlama dilinin React.JS kütüphanesi ve bağlantılı teknolojileri kullanarak web uygulamaları geliştirmekteyim. Back-End tarafında da bilgimi artırmak istiyorum. Güncel teknolojileri takip edip sektörde yer almak istiyorum.",
     "website": "#",
-    "email": "anamika.rekhar@gmail.com",
+    "email": "pruthvirajam95@gmail.com",
     "location": {
-      "city": "Cheltenham",
-      "countryCode": "US"
+      "city": "Leesburg",
+      "countryCode": "Virginia"
     },
     "profiles": {
+      "twitter": {
+        "username": "hsnaydgd",
+        "url": "https://twitter.com/hsnaydgd"
+      },
       "github": {
-        "url": "github.com//AnamikaRekha1999",
-        "username": "AnamikaRekha1999"
+        "url": "https://github.com/Pruthviraj-Guddu",
+        "username": "Pruthviraj-Guddu"
       },
       "linkedin": {
-        "username": "anamikarekha",
-        "url": "https://www.linkedin.com/in/anamikarekha"
+        "username": "pruthvirajma",
+        "url": "https://www.linkedin.com/in/pruthvirajma"
       }
     }
   },
-  
 
   "repository": [
     {
-      "name": "Movie Recommendation System",
-      "explanation": "Led data cleaning and built collaborative filtering models for predicting user movie ratings.",
-      "tag": ["Python", "Pandas", "SciPy"],
-      "bestLang": "Python",
-      "date": "2024.03.28",
-      "link": "https://github.com/AnamikaRekha1999/movie-recommendation-system",
-      "viewLink": ""
-    },
-    {
-      "name": "UNICEF Data Warehouse Project",
-      "explanation": "Managed ETL pipelines and built a robust Star schema for efficient data modeling.",
-      "tag": ["SQL", "Data Warehousing", "ETL"],
-      "bestLang": "SQL",
-      "date": "2024.03.24",
-      "link": "https://github.com/AnamikaRekha1999/unicef-data-warehouse",
-      "viewLink": ""
-    },
-    {
-      "name": "Financial Stock Data Analysis Project",
-      "explanation": "Performed sentiment analysis and developed an LSTM model to predict stock prices.",
-      "tag": ["Python", "Keras", "TensorFlow"],
-      "bestLang": "Python",
+      "name": "Interactive Guide to Flexbox",
+      "explanation": "A tool where you can experience the use of CSS Flexbox without writing code.",
+      "tag": ["css3", "javascript", "html5"],
+      "bestLang": "css3",
       "date": "2023.03.28",
-      "link": "https://github.com/AnamikaRekha1999/financial-stock-analysis",
+      "link": "https://github.com/haydogdu1990/interactive-guide-to-flexbox",
+      "viewLink": "https://haydogdu1990.github.io/interactive-guide-to-flexbox/"
+    },
+    {
+      "name": "React ile Twitter Web Clone",
+      "explanation": "Creating a twitter clone using React NextJS and Storybook",
+      "tag": ["javascript", "css3", "reactjs", "nextjs", "storybook", "svgr"],
+      "bestLang": "reactjs",
+      "date": "2023.01.15",
+      "link": "https://github.com/haydogdu1990/twitter-web-clone-react",
+      "viewLink": "https://twitter-web-clone-react-7al4.vercel.app/"
+    },
+    {
+      "name": "React Guides",
+      "explanation": "This project contains simple applications created to guide the use of React tools.",
+      "tag": ["reactjs"],
+      "bestLang": "reactjs",
+      "date": "2022.04.05",
+      "link": "https://github.com/haydogdu1990/React-Guidest",
       "viewLink": ""
     }
   ],
 
   "education": [
     {
-      "endDate": "2024",
-      "startDate": "2022",
-      "area": "Data Science",
-      "studyType": "Master of Science",
-      "institution": "Drexel University, Philadelphia, PA",
-      "gpa": "3.93"
-    },
-    {
-      "endDate": "2021",
-      "startDate": "2017",
-      "area": "Computer Science and Engineering",
-      "studyType": "Bachelor of Technology (Honors)",
-      "institution": "APJ Abdul Kalam Technological University, Kerala, India",
-      "gpa": "3.78"
+      "endDate": "2012",
+      "startDate": "2008",
+      "area": "Computer Education and Instructional Technology",
+      "studyType": "Bachelor Degree",
+      "institution": "Gazi University"
     }
   ],
   "references": [
@@ -95,30 +90,44 @@
   "skills": [
     {
       "keywords": [
-        "Python",
-        "SQL",
-        "Tableau",
-        "Power BI",
-        "Apache Spark",
-        "Google Cloud Platform",
-        "Databricks",
-        "Machine Learning"
+        "Javascript",
+        "React.JS",
+        "Node.JS",
+        "Next.JS",
+        "Vite",
+        "Git",
+        "React Router",
+        "Redux Toolkit",
+        "Styled Components",
+        "SASS",
+        "Tailwind CSS"
       ],
-      "level": "Intermediate",
-      "name": "Data Science"
+      "level": "Junior",
+      "name": "Frontend",
+      "situation": "Technologies I Use"
     },
     {
       "keywords": [
-        "AWS",
-        "Matplotlib",
-        "PyTorch",
-        "Salesforce",
-        "CRM Analytics",
-        "Adobe Experience Platform",
-        "Google Analytics"
+        "Jest.JS",
+        "FastAPI",
+        "GraphQL",
+        "React Query",
+        "Formik",
+        "React Hook Form",
+        "React Native",
+
+        "Express.JS",
+
+        "TypeScript",
+
+        "Go",
+
+        "MongoDB",
+        "PostgreSQL"
       ],
-      "level": "Beginner",
-      "name": "Tools & Technologies"
+      "level": "Junior",
+      "name": "Frontend",
+      "situation": "What i want to learn..."
     }
   ],
   "awards": [
