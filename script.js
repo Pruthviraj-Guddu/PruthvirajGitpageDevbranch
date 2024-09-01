@@ -164,6 +164,7 @@ const data = fetch(resume)
     for (let i in RelevantCoursework) {
       RelevantCourseworkHtml.innerHTML += `<span style="display:inline-block;" class="RelevantCourseworkSpan">${RelevantCoursework[i]} <p>hi</p></span>`;
     }
+    RelevantCourseworkHtml.innerHTML = "hello";
   });
 
 //https://www.youtube.com/watch?v=UkB-zKNBVTo&list=PLv1CRNciwsrf_DA7Yl3_kdsqYjbjbMB8r&index=3
