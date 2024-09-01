@@ -162,7 +162,7 @@ const data = fetch(resume)
 
     let RelevantCoursework = resume.RelevantCoursework;
     for (let i in RelevantCoursework){
-      RelevantCoursework.RelevantCourseworkHtml += `<span style="display:inline-block;" class="RelevantCourseworkSpan">${RelevantCoursework[i]}</span>`;
+      RelevantCourseworkHtml.innerHTML += `<span style="display:inline-block;" class="RelevantCourseworkSpan">${RelevantCoursework[i]}</span>`;
     }
 
 
