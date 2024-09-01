@@ -159,13 +159,11 @@ const data = fetch(resume)
       interestsHtml.innerHTML += `<span style="display:inline-block;" class="interestsSpan">${interests[i]}</span>`;
     }
 
-
+    // Relevant Coursework
     let RelevantCoursework = resume.Relevant_Coursework;
-    for (let i in RelevantCoursework){
-      RelevantCourseworkHtml.innerHTML += `<span style="display:inline-block;" class="RelevantCourseworkSpan">${RelevantCoursework[i]}</span>`;
+    for (let i in RelevantCoursework) {
+      RelevantCourseworkHtml.innerHTML += `<span style="display:inline-block;" class="RelevantCourseworkSpan">${RelevantCoursework[i]} <p>hi</p></span>`;
     }
-
-
   });
 
 //https://www.youtube.com/watch?v=UkB-zKNBVTo&list=PLv1CRNciwsrf_DA7Yl3_kdsqYjbjbMB8r&index=3
