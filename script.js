@@ -62,7 +62,7 @@ let worksHtml = document.getElementsByClassName("worksHtml")[0];
 let educationHtml = document.getElementsByClassName("educationHtml")[0];
 let interestsHtml = document.getElementsByClassName("interestsHtml")[0];
 let repositoryHtml = document.getElementsByClassName("repositoryHtml")[0];
-let RelevantCourseworkHtml = document.getElementsByClassName("RelevantCourseworkHtml")[0];
+//let RelevantCourseworkHtml = document.getElementsByClassName("RelevantCourseworkHtml")[0];
 
 let resume = "resume.json";
 const data = fetch(resume)
@@ -161,14 +161,13 @@ const data = fetch(resume)
     }
 
     // Relevant Coursework
-    //let RelevantCourseworkHtml = document.getElementsByClassName("RelevantCourseworkHtml")[0];
+    let RelevantCourseworkHtml = document.getElementsByClassName("RelevantCourseworkHtml")[0];
     let RelevantCoursework = resume.Relevant_Coursework;
     for (let i in RelevantCoursework) {
-     // RelevantCourseworkHtml.innerHTML += `<span style="display:inline-block;" class="interestsSpan">${RelevantCoursework[i]}</span>`;
-      RelevantCourseworkHtml.innerHTML += `<span style="display:inline-block;" class="interestsSpan">${RelevantCoursework[i]}</span>`;
+     
+      RelevantCourseworkHtml.innerHTML += `<span style="display:inline-block;" class="RelevantCourseworkSpan">${RelevantCoursework[i]}</span>`;
     }
-    //RelevantCourseworkSpan
-    //RelevantCourseworkHtml.innerHTML = '<p>hi</p>';
+
   });
 
 //https://www.youtube.com/watch?v=UkB-zKNBVTo&list=PLv1CRNciwsrf_DA7Yl3_kdsqYjbjbMB8r&index=3
