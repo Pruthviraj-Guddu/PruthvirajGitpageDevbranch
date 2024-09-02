@@ -164,7 +164,7 @@ const data = fetch(resume)
     //let RelevantCourseworkHtml = document.getElementsByClassName("RelevantCourseworkHtml")[0];
     let RelevantCoursework = resume.Relevant_Coursework;
     for (let i in RelevantCoursework) {
-      RelevantCourseworkHtml.innerHTML += `<span style="display:inline-block;" class="RelevantCourseworkSpan">${RelevantCoursework[i]} </span>`;
+      RelevantCourseworkHtml.innerHTML += `<span style="display:inline-block;" class="RelevantCourseworkSpan">${RelevantCoursework[i]}</span>`;
     }
     //RelevantCourseworkHtml.innerHTML = '<p>hi</p>';
   });
