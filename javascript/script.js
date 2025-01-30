@@ -1,73 +1,40 @@
-// Menu item click event
 document.addEventListener("DOMContentLoaded", function () {
-    const menuItems = document.querySelectorAll(".menuBar ul li a");
-  
-    menuItems.forEach(function (menuItem) {
-      menuItem.addEventListener("click", function () {
-        const menuBar = document.querySelector(".menuBar");
-        menuBar.classList.remove("active");
-      });
-    });
-  });
-  
-  // GSAP animations
-  const tl = gsap.timeline({ defaults: { ease: "power1.out" } });
-  
-  tl.from(".navBar", { y: "-10rem", duration: 1 });
-  tl.from(".navBar .navBar__menu ul li", {
-    y: "-2rem",
-    opacity: 0,
-    duration: 1,
-    stagger: 0.25,
-  });
-  tl.to(
-    ".sec1__content .sec1__contentDetail h1",
-    { y: "0rem", duration: 1, stagger: 0.25 },
-    "=-1"
-  );
-  tl.from(".sec1__imgBx img", { opacity: 0, x: "50%", duration: 1.5 });
-  tl.from(
-    ".sec1__imgBx .sec1__design1",
-    { opacity: 0, x: "3rem", duration: 1.5 },
-    "=-1"
-  );
-  tl.from(
-    ".sec1__imgBx .sec1__design2",
-    { opacity: 0, x: "-3rem", duration: 1.5 },
-    "=-1"
-  );
-  tl.from(
-    ".sec1__design3",
-    { opacity: 0, x: "-30%", duration: 1.5 },
-    "=-2"
-  );
-  tl.from(".sec1__design4", { opacity: 0, duration: 1.5 }, "=-2");
-  tl.from(".sec1__content a", { opacity: 0, duration: 1.5 }, "=-3");
-  
-  // AOS initialization
-  AOS.init({
-    duration: 1000,
-    offset: 0,
-  });
-  
-  // Menu icon toggle
-  var sec1__menuIcon = document.querySelector(".sec1__menuIcon");
-  var menuBar = document.querySelector(".menuBar");
-  sec1__menuIcon.addEventListener("click", function () {
-    sec1__menuIcon.classList.toggle("active");
-    menuBar.classList.toggle("active");
-  });
-  
-  // Scroll to top functionality
-  window.addEventListener("scroll", function () {
-    var scroll = document.querySelector(".fa");
-    scroll.classList.toggle("active", window.scrollY > 500);
-  });
-  
-  function scrollToTop() {
-    window.scrollTo({
-      top: 0,
-      behavior: "smooth",
-    });
-  }
-  
+  fetch("./data/data.json")
+      .then(response => response.json())
+      .then(data => {
+        console.log("hello")
+          // Set the page title dynamically
+          document.title = data.text.title;
+
+          // Update the Home Section
+          document.querySelector("#sectionHome .sec1__contentDetail").innerHTML = `
+              <h1>${data.text.sections[0].content}</h1>
+          `;
+
+          // Update About Me Section
+          document.querySelector("#sectionAbout .sec2__aboutme2").innerHTML = `
+              <p>${data.text.sections[1].content}</p>
+          `;
+
+          // Populate Social Links
+          const socialLinks = document.querySelector(".sec2__aboutme1Social ul");
+          socialLinks.innerHTML = `
+              <li><a href="${data.links.github}" target="_blank"><i class="fab fa-github"></i></a></li>
+              <li><a href="${data.links.linkedin}" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+              <li><a href="${data.links.email}"><i class="fas fa-envelope"></i></a></li>
+          `;
+
+          // Add Projects Dynamically
+          const projectsContainer = document.querySelector("#sectionProjects .sec3__container");
+          data.links.projects.forEach(project => {
+              projectsContainer.innerHTML += `
+                  <a href="${project.url}" target="_blank" style="text-decoration: none;">
+                      <div class="sec3__card">
+                          <h2>${project.name}</h2>
+                      </div>
+                  </a>
+              `;
+          });
+      })
+      .catch(error => console.error("Error loading JSON:", error));
+});

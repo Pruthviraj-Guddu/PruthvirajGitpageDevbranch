@@ -1,0 +1,55 @@
+{
+    "text": {
+      "title": "Pruthviraj Mundargi",
+      "sections": [
+        {
+          "name": "Home",
+          "content": "hi, I'm Pruthviraj - Software Developer 😊"
+        },
+        {
+          "name": "About Me",
+          "content": "Pruthviraj aka Guddu, a passionate software developer with a Master's in Computer Science from Drexel University."
+        },
+        {
+          "name": "Education",
+          "content": [
+            "Masters in Computer Science, Drexel University, Philadelphia, Pennsylvania, USA (July 2024)",
+            "Bachelors in Computer Science, REVA University, Bangalore, India (2020)",
+            "Diploma in Computer Science, Bapuji Polytechnic, Davangere, India (2017)"
+          ]
+        },
+        {
+          "name": "Work Experience",
+          "content": [
+            "Actifi, Inc. - Intern Software Engineer (AngularJS, JavaScript, NodeJS, PHP & SQL)",
+            "Zinemind Technologies Pvt. Ltd - Software Engineer (Xamarin, C# & SQL)",
+            "Practo Technologies - Android App Developer (Kotlin & Java)"
+          ]
+        }
+      ]
+    },
+    "links": {
+      "github": "https://github.com/Pruthviraj-Guddu/",
+      "linkedin": "https://www.linkedin.com/in/pruthvirajma",
+      "email": "mailto:pruthvirajam95@gmail.com",
+      "projects": [
+        {
+          "name": "Car Rental Website",
+          "url": "https://github.com/Pruthviraj-Guddu/CS530-ProjectCars"
+        },
+        {
+          "name": "FurniFLEX",
+          "url": "https://github.com/Pruthviraj-Guddu/FurniFlexSustainability"
+        },
+        {
+          "name": "Windows Chat Application",
+          "url": "https://github.com/Pruthviraj-Guddu/winChatApp"
+        },
+        {
+          "name": "Drexel University Resources",
+          "url": "https://pruthviraj-guddu.github.io/drexelfaq"
+        }
+      ]
+    }
+  }
+  
