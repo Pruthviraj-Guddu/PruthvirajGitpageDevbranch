@@ -1047,8 +1047,3 @@ footer {
   text-decoration: none;
   margin-bottom: 7px;
 }
-
-body {
-  background-color: var(--bg-color);
-  color: var(--text-color);
-}
