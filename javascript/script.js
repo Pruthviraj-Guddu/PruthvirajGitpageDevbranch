@@ -22,6 +22,7 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 function injectData(data) {
+  let firstNameElement = document.getElementsByClassName("firstNameElement")[0];
   if (firstNameElement) {
     firstNameElement.textContent = data.basics.firstName;
   } else {
