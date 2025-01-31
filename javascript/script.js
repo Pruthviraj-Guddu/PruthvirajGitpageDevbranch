@@ -32,7 +32,7 @@ function injectData(data) {
   let githubLinkElement = document.getElementById("githubLinkElement");
   if (githubLinkElement) {
     // Dynamically set the href to the GitHub URL from the JSON data
-    githubLinkElement.href = data.profiles.github.url;
+    githubLinkElement.href = data.basics.profiles.github.url;
     console.log(data.profiles.github.url);
   } else {
     console.error("Element with ID 'githubLinkElement' not found.");
