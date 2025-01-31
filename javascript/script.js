@@ -33,6 +33,7 @@ function injectData(data) {
   //githubLinkElement = "happyHappy";
   if (githubLinkElement) {
     // Dynamically set the href to the GitHub URL from the JSON data
+    console.log(githubLinkElement)
     githubLinkElement.href = data.profiles.github.url;
   } else {
     console.error("Element with class 'githubLinkElement' not found.");
@@ -41,9 +42,9 @@ function injectData(data) {
   let linkedinLinkElement =
     document.getElementsByClassName("linkedinLinkElement")[0];
   //githubLinkElement = "happyHappy";
-  if (githubLinkElement) {
-    // Dynamically set the href to the GitHub URL from the JSON data
-    githubLinkElement.href = data.profiles.linkedin.url;
+  if (linkedinLinkElement) {
+    console.log(linkedinLinkElement)
+    linkedinLinkElement.href = data.profiles.linkedin.url;
   } else {
     console.error("Element with class 'linkedinLinkElement' not found.");
   }
