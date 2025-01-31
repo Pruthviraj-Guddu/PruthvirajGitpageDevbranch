@@ -29,7 +29,7 @@ function injectData(data) {
     console.error("Element with class 'FirstNameHtml' not found.");
   }
   //let githubLinkElement = document.getElementsByClassName("githubLinkElement")[0];
-    let githubLinkElement = document.getElementById(".githubLinkElement");
+    let githubLinkElement = document.getElementById("githubLinkElement");
   //githubLinkElement = "happyHappy";
   if (githubLinkElement) {
     // Dynamically set the href to the GitHub URL from the JSON data
