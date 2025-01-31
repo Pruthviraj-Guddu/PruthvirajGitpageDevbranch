@@ -33,8 +33,8 @@ function injectData(data) {
   //githubLinkElement = "happyHappy";
   if (githubLinkElement) {
     // Dynamically set the href to the GitHub URL from the JSON data
-    console.log(githubLinkElement)
-    githubLinkElement.href = data.profiles.github.url;
+    githubLinkElement.href = date.profiles.github.url; //data.profiles.github.url;
+    console.log(date.profiles.github.url)
   } else {
     console.error("Element with class 'githubLinkElement' not found.");
   }
