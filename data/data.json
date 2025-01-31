@@ -29,30 +29,35 @@
       }
     }
   },
-
   "ProjectExperience": [
     {
       "name": "Movie Recommendation System",
       "explanation": "Led a comprehensive data cleaning process on datasets from MovieLens, IMDB, Rotten Tomatoes, and Wikipedia, processing over 20 million records to handle missing values, eliminate duplicates, and standardize formats. Conducted exploratory data analysis on over 100 movie attributes and user preferences to identify key patterns for algorithm development. Built and optimized collaborative filtering models including Singular Value Decomposition (SVD), SVD++, and Non-Negative Matrix Factorization (NMF) for predicting user ratings. Evaluated model performance using metrics like Root Mean Squared Error (RMSE) and Mean Absolute Error (MAE). Developed a Content-Based recommendation system using Cosine Similarity, Jaccard Similarity, and k-nearest neighbors (KNN) for personalized recommendations.",
-      "tag": ["Python", "Pandas", "SciPy", "Machine Learning"],
+      "tag": [
+        "Python",
+        "Pandas",
+        "SciPy",
+        "Machine Learning"
+      ],
       "bestLang": "Python",
       "date": "Sep 2023 – Mar 2024",
       "link": "https://github.com/AnamikaRekha1999/movie-recommendation-system",
       "viewLink": ""
     },
-    
     {
       "name": "Suicide Data Acquisition and Analysis",
       "explanation": "Conducted web scraping in Python to acquire a comprehensive suicide dataset from various websites, adding valuable data points. Preprocessed and manipulated the data, merging it with other datasets to ensure accuracy and consistency. Provided actionable insights for suicide prevention agencies to enhance outreach efforts.",
-      "tag": ["Python", "Web Scraping", "Data Analysis"],
+      "tag": [
+        "Python",
+        "Web Scraping",
+        "Data Analysis"
+      ],
       "bestLang": "Python",
       "date": "Sep 2022 – Dec 2022",
       "link": "https://github.com/AnamikaRekha1999/suicide-data-analysis",
       "viewLink": ""
     }
-],
-
-
+  ],
   "education": [
     {
       "endDate": "2024",
@@ -98,7 +103,6 @@
         "R",
         "HTML",
         "CSS"
-        
       ],
       "level": "Professional",
       "name": "Data Science",
@@ -106,8 +110,7 @@
     },
     {
       "keywords": [
-        "Tableau",
-   
+        "Tableau"
       ],
       "level": "Intermediate",
       "name": "Data Science",
@@ -117,7 +120,6 @@
       "keywords": [
         "Tableau",
         "Machine Learning Concepts"
-        
       ],
       "level": "Intermediate",
       "name": "Data Science",
@@ -128,8 +130,6 @@
         "Git",
         "Linux",
         "Windows"
-
-        
       ],
       "level": "Intermediate",
       "name": "Data Science",
@@ -149,15 +149,13 @@
       "location": "Philadelphia, PA",
       "position": "Data Analyst Intern",
       "startDate": "Sep 2024",
-      "endDate": "Prsent",  
+      "endDate": "Prsent",
       "highlights": [
         "Utilized data collection and cleansing techniques to prepare datasets for analysis",
-             "Managed and queried databases to extract relevant information for reports",
+        "Managed and queried databases to extract relevant information for reports",
         "Assisted in research methodologies and report writing to support healthcare staffing strategies"
       ]
-    }
-    ,
-    
+    },
     {
       "summary": "Cognizant Technology Solutions is a global technology and professional services company that helps clients build and modernize technology systems.",
       "name": "Cognizant Technology Solutions",
@@ -166,12 +164,11 @@
       "startDate": "Aug 2021",
       "endDate": "Sep 2022",
       "highlights": [
-          "Analyzed production issues, reviewed test scripts, and provided bug fixes to ensure smooth project deployment",
+        "Analyzed production issues, reviewed test scripts, and provided bug fixes to ensure smooth project deployment",
         "Participated in CR processes, managed Azure boards, and collaborated with stakeholders during sprints, demos, and unit tests"
       ]
     }
   ],
-
   "interests": [
     "Drawing",
     "Risk game"
