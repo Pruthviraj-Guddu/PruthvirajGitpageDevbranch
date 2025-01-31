@@ -4,25 +4,29 @@ document.addEventListener("DOMContentLoaded", function () {
   const menuBar = document.querySelector(".menuBar");
 
   if (menuBar) {
-      menuItems.forEach(function (menuItem) {
-          menuItem.addEventListener("click", function (event) {
-              event.preventDefault();
-              menuBar.classList.remove("active");
-          });
+    menuItems.forEach(function (menuItem) {
+      menuItem.addEventListener("click", function (event) {
+        event.preventDefault();
+        menuBar.classList.remove("active");
       });
+    });
   }
 
   fetch("./data/data.json")
-      .then(response => response.json())
-      .then(data => {
-          injectData(data); // Handle the data as needed
-          console.log(data); // Optional: log the data for debugging
-      })
-      .catch(error => console.error("Error loading JSON:", error));
+    .then((response) => response.json())
+    .then((data) => {
+      injectData(data); // Handle the data as needed
+      console.log(data); // Optional: log the data for debugging
+    })
+    .catch((error) => console.error("Error loading JSON:", error));
 });
 
-function injectData(data){
-  let FirstNameHtml = document.getElementsByClassName("FirstNameHtml")[0];
+function injectData(data) {
+  if (firstNameElement) {
+    firstNameElement.textContent = data.basics.firstName;
+  } else {
+    console.error("Element with class 'FirstNameHtml' not found.");
+  }
 }
 
 // GSAP animations
