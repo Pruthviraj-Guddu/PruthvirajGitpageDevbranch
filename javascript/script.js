@@ -28,12 +28,12 @@ function injectData(data) {
   } else {
     console.error("Element with class 'FirstNameHtml' not found.");
   }
-  let githubLinkElement =
-    document.getElementsByClassName("githubLinkElement")[0];
+  //let githubLinkElement = document.getElementsByClassName("githubLinkElement")[0];
+    let githubLinkElement = document.getElementById(".githubLinkElement");
   //githubLinkElement = "happyHappy";
   if (githubLinkElement) {
     // Dynamically set the href to the GitHub URL from the JSON data
-    githubLinkElement.href = data.profiles.github.url; //data.profiles.github.url;
+    githubLinkElement.href = data.profiles.github.url;
     console.log(data.profiles.github.url)
   } else {
     console.error("Element with class 'githubLinkElement' not found.");
