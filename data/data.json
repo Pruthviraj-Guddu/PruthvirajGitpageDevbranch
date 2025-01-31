@@ -3,6 +3,7 @@
     "theme": "actual"
   },
   "basics": {
+    "firstName" : "Pikachu", 
     "name": "Pruthviraj Mundargi",
     "label": "MS in Data Science Graduate",
     "image": "https://avatars.githubusercontent.com/u/137219152?v=4",

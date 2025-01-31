@@ -15,12 +15,15 @@ document.addEventListener("DOMContentLoaded", function () {
   fetch("./data/data.json")
       .then(response => response.json())
       .then(data => {
-         // injectData(data); // Handle the data as needed
+          injectData(data); // Handle the data as needed
           console.log(data); // Optional: log the data for debugging
       })
       .catch(error => console.error("Error loading JSON:", error));
 });
 
+function injectData(data){
+  let FirstNameHtml = document.getElementsByClassName("FirstNameHtml")[0];
+}
 
 // GSAP animations
 const tl = gsap.timeline({ defaults: { ease: "power1.out" } });
