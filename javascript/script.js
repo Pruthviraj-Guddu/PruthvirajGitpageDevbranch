@@ -43,7 +43,7 @@ function injectData(data) {
   //githubLinkElement = "happyHappy";
   if (linkedinLinkElement) {
     console.log(linkedinLinkElement)
-    linkedinLinkElement.href = data.profiles.linkedin.url;
+    linkedinLinkElement.href = data.basics.profiles.linkedin.url;
   } else {
     console.error("Element with class 'linkedinLinkElement' not found.");
   }
