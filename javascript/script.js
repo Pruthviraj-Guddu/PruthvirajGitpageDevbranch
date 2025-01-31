@@ -28,14 +28,28 @@ function injectData(data) {
   } else {
     console.error("Element with class 'FirstNameHtml' not found.");
   }
-  let githubLinkElement = document.getElementsByClassName("githubLinkElement")[0];
+  let githubLinkElement =
+    document.getElementsByClassName("githubLinkElement")[0];
   //githubLinkElement = "happyHappy";
   if (githubLinkElement) {
     // Dynamically set the href to the GitHub URL from the JSON data
-    githubLinkElement.href = data.github.url;
-} else {
+    githubLinkElement.href = data.profiles.github.url;
+  } else {
     console.error("Element with class 'githubLinkElement' not found.");
-}
+  }
+
+  let linkedinLinkElement =
+    document.getElementsByClassName("linkedinLinkElement")[0];
+  //githubLinkElement = "happyHappy";
+  if (githubLinkElement) {
+    // Dynamically set the href to the GitHub URL from the JSON data
+    githubLinkElement.href = data.profiles.linkedin.url;
+  } else {
+    console.error("Element with class 'linkedinLinkElement' not found.");
+  }
+
+  linkedinLinkElement
+
 }
 
 // GSAP animations

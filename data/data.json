@@ -3,14 +3,13 @@
     "theme": "actual"
   },
   "basics": {
-    "firstName" : "Pikkak chu", 
+    "firstName": "Pikkak chu",
     "name": "Pruthviraj Mundargi",
     "label": "MS in Data Science Graduate",
-    "image": "https://avatars.githubusercontent.com/u/137219152?v=4",
-    "summary": "I am a passionate Data Scientist with a strong focus on machine learning, data analysis, and cutting-edge research. My hands-on experience with building and fine-tuning machine learning models in Python, alongside my proficiency in SQL and visualization tools like Power BI and Tableau, has allowed me to turn complex datasets into impactful insights. Currently, I am honing my skills as a Data Analyst Intern at Pinnacle Healthcare Staffing, where I am eager to learn and contribute more, but my ultimate goal is to pursue a career as a Data Scientist.I thrive in environments that foster growth, and my time as a Graduate Teaching Assistant at Drexel University gave me the opportunity to deepen my knowledge, support students, and further my understanding of core data science principles. With a strong passion for research and continuous learning, I am always exploring new tools, techniques, and methodologies to stay at the forefront of the field. I am actively seeking opportunities that allow me to grow, contribute, and ultimately drive innovation in data science.",
-    "summarytr": "Veri analizi, makine öğrenimi ve yazılım geliştirme konusunda sağlam bir temele sahip bir Veri Bilimcisiyim. Uzmanlığım Python, SQL ve Power BI ve Tableau gibi çeşitli veri görselleştirme araçlarını kapsar. Veri hatları oluşturma, veri analizi yapma ve makine öğrenimi modelleri oluşturma konusunda uygulamalı deneyimim var. Karmaşık verileri eyleme dönüştürülebilir içgörülere dönüştürme konusunda tutkuluyum ve alanda önde kalmak için sürekli olarak yeni araçlar ve teknolojiler öğreniyorum.",
+    "image": "https://avatars.githubusercontent.com/u/59650445?v=4",
+    "summary": "My name is Pruthviraj Mundargi aka {Guddu } a passionate software developer with a Master′s in Computer Science from Drexel University, Philadelphia (July 2024). With hands-on experience in Android and cross-platform app development, I specialize in building dynamic, scalable solutions using technologies like <u>Xamarin</u>, <u>C#</u>, <u>SQL</u>, <u>AngularJS</u>, <u>NodeJS</u>, and more. My career began as an intern at 'Practo Technologies', where I contributed to improving healthcare technology, from enhancing user experiences to optimizing app performance. I then transitioned to 'Zinemind Technologies', where I engineered cross-platform apps for industries ranging from sports ERP to aerospace. I′ve developed secure mobile applications, crafted APIs for seamless data integration, and built real estate and aviation management systems. Currently, at 'Actifi, Inc.', I′m refining my skills in full-stack development, working on JavaScript-based assessment tools akin to Google Forms, and creating interactive features for financial advisors. My side project, a Daily Question-Answer Application, utilizes <u>Flask</u>, <u>SQLite</u>, and <u>Chart.js</u> to visualize user trends, further expanding my expertise in web technologies. I hold a Bachelor′s degree in Computer Science from REVA University, Bangalore, and a 'Diploma in Computer Science' from Bapuji Polytechnic, Davangere. I am also proficient in <u>Python</u>, <u>Java</u>, <u>Kotlin</u>, <u>PHP</u>, and various tools like <u>GitHub</u>, <u>Microsoft Visual Studio</u>, and <u>Postman</u>. With a well-rounded foundation in multiple programming languages and tools, I translate complex problems into innovative digital solutions. Let′s connect and embark on new ventures together!",
     "website": "#",
-    "email": "anamika.rekhar@gmail.com",
+    "email": "pruthvirajam95@gmail.com",
     "location": {
       "city": "Cheltenham",
       "countryCode": "US"
@@ -21,12 +20,12 @@
         "url": "https://twitter.com/"
       },
       "github": {
-        "url": "https://github.com/Pruthviraj-Guddu/",
+        "url": "https://pruthviraj-guddu.github.io/PruthvirajGitpageDevbranch/",
         "username": "Pruthviraj-Guddu"
       },
       "linkedin": {
-        "username": "anamikarekha",
-        "url": "https://www.linkedin.com/in/anamikarekha"
+        "username": "pruthvirajma",
+        "url": "https://www.linkedin.com/in/pruthvirajma"
       }
     }
   },
@@ -34,12 +33,7 @@
     {
       "name": "Movie Recommendation System",
       "explanation": "Led a comprehensive data cleaning process on datasets from MovieLens, IMDB, Rotten Tomatoes, and Wikipedia, processing over 20 million records to handle missing values, eliminate duplicates, and standardize formats. Conducted exploratory data analysis on over 100 movie attributes and user preferences to identify key patterns for algorithm development. Built and optimized collaborative filtering models including Singular Value Decomposition (SVD), SVD++, and Non-Negative Matrix Factorization (NMF) for predicting user ratings. Evaluated model performance using metrics like Root Mean Squared Error (RMSE) and Mean Absolute Error (MAE). Developed a Content-Based recommendation system using Cosine Similarity, Jaccard Similarity, and k-nearest neighbors (KNN) for personalized recommendations.",
-      "tag": [
-        "Python",
-        "Pandas",
-        "SciPy",
-        "Machine Learning"
-      ],
+      "tag": ["Python", "Pandas", "SciPy", "Machine Learning"],
       "bestLang": "Python",
       "date": "Sep 2023 – Mar 2024",
       "link": "https://github.com/AnamikaRekha1999/movie-recommendation-system",
@@ -48,11 +42,7 @@
     {
       "name": "Suicide Data Acquisition and Analysis",
       "explanation": "Conducted web scraping in Python to acquire a comprehensive suicide dataset from various websites, adding valuable data points. Preprocessed and manipulated the data, merging it with other datasets to ensure accuracy and consistency. Provided actionable insights for suicide prevention agencies to enhance outreach efforts.",
-      "tag": [
-        "Python",
-        "Web Scraping",
-        "Data Analysis"
-      ],
+      "tag": ["Python", "Web Scraping", "Data Analysis"],
       "bestLang": "Python",
       "date": "Sep 2022 – Dec 2022",
       "link": "https://github.com/AnamikaRekha1999/suicide-data-analysis",
@@ -97,41 +87,25 @@
   ],
   "skills": [
     {
-      "keywords": [
-        "Python",
-        "SQL",
-        "C",
-        "R",
-        "HTML",
-        "CSS"
-      ],
+      "keywords": ["Python", "SQL", "C", "R", "HTML", "CSS"],
       "level": "Professional",
       "name": "Data Science",
       "situation": "Programming Languages"
     },
     {
-      "keywords": [
-        "Tableau"
-      ],
+      "keywords": ["Tableau"],
       "level": "Intermediate",
       "name": "Data Science",
       "situation": "Tools & Technologies"
     },
     {
-      "keywords": [
-        "Tableau",
-        "Machine Learning Concepts"
-      ],
+      "keywords": ["Tableau", "Machine Learning Concepts"],
       "level": "Intermediate",
       "name": "Data Science",
       "situation": "Methodologies"
     },
     {
-      "keywords": [
-        "Git",
-        "Linux",
-        "Windows"
-      ],
+      "keywords": ["Git", "Linux", "Windows"],
       "level": "Intermediate",
       "name": "Data Science",
       "situation": "Environment/OS"
@@ -170,10 +144,7 @@
       ]
     }
   ],
-  "interests": [
-    "Drawing",
-    "Risk game"
-  ],
+  "interests": ["Drawing", "Risk game"],
   "Relevant_Coursework": [
     "Data Structures and Algorithms I",
     "Data Structures and Algorithms II",
