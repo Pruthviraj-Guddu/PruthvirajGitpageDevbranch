@@ -33,17 +33,17 @@ function injectData(data) {
   if (githubLinkElement) {
     // Dynamically set the href to the GitHub URL from the JSON data
     githubLinkElement.href = data.basics.profiles.github.url;
-    console.log(data.profiles.github.url);
+    console.log(data.basics.profiles.github.url);
   } else {
     console.error("Element with ID 'githubLinkElement' not found.");
   }
 
   let linkedinLinkElement =
-    document.getElementsByClassName("linkedinLinkElement")[0];
+    document.getElementById("linkedinLinkElement")[0];
   //githubLinkElement = "happyHappy";
   if (linkedinLinkElement) {
-    console.log(linkedinLinkElement)
     linkedinLinkElement.href = data.basics.profiles.linkedin.url;
+    console.log(data.basics.profiles.linkedin.url)
   } else {
     console.error("Element with class 'linkedinLinkElement' not found.");
   }
