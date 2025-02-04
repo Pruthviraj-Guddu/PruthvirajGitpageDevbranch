@@ -22,62 +22,22 @@ function injectData(data) {
   } else {
     console.error("Element with class 'FirstNameHtml' not found.");
   }
-  /*
-  // GitHub Link
-  let githubLinkElement = document.getElementById("githubLinkElement");
-  if (githubLinkElement) {
-    // Dynamically set the href to the GitHub URL from the JSON data
-    githubLinkElement.href = data.basics.profiles.github.url;
-    console.log(data.basics.profiles.github.url);
-  } else {
-    console.error("Element with ID 'githubLinkElement' not found.");
-  }
 
-  let linkedinLinkElement = document.getElementById("linkedinLinkElement");
-  if (linkedinLinkElement) {
-    linkedinLinkElement.href = data.basics.profiles.linkedin.url;
-    console.log(data.basics.profiles.linkedin.url);
-  } else {
-    console.error("Element with class 'linkedinLinkElement' not found.");
-  }
-
-  //digitalResumeElement
-  let digitalResumeElement = document.getElementById("digitalResumeElement");
-  if (digitalResumeElement) {
-    digitalResumeElement.href = data.links.digitalResume.url;
-    console.log(data.links.digitalResume.url);
-  } else {
-    console.error("Element with class 'digitalResumeElement' not found.");
-  }
-  
-  //mailElement
-  let mailElement = document.getElementById("mailElement");
-  if (mailElement) {
-    mailElement.src = data.links.email.url;
-    console.log(data.links.ProfilePicture.url);
-  } else {
-    console.error("Element with class 'mailElement' not found.");
-  }
-    */
+  //social links
   let socialLinks = document.querySelectorAll(".socialLink");
   socialLinks.forEach((link) => {
-    // Handle GitHub link
     if (link.classList.contains("githubLinkElement")) {
       link.href = data.basics.profiles.github.url;
     }
-    // Handle LinkedIn link
     else if (link.classList.contains("linkedinLinkElement")) {
       link.href = data.basics.profiles.linkedin.url;
     }
-    // Handle Digital Resume link
     else if (link.classList.contains("digitalResumeElement")) {
       link.href = data.links.digitalResume.url;
       console.log(data.links.digitalResume.url);
-    }
-    else if (link.classList.contains("mailElement")) {
+    } else if (link.classList.contains("mailElement")) {
       link.href = data.links.email.url;
       console.log(data.links.email.url);
-      //mailElement
     }
   });
 
@@ -89,7 +49,6 @@ function injectData(data) {
   } else {
     console.error("Element with class 'profileImageElement' not found.");
   }
-
 }
 
 // GSAP animations
