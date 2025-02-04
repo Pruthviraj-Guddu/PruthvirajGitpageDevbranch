@@ -33,7 +33,6 @@ function injectData(data) {
   }
 
   let linkedinLinkElement = document.getElementById("linkedinLinkElement");
-  //githubLinkElement = "happyHappy";
   if (linkedinLinkElement) {
     linkedinLinkElement.href = data.basics.profiles.linkedin.url;
     console.log(data.basics.profiles.linkedin.url);
@@ -43,13 +42,22 @@ function injectData(data) {
 
   //digitalResumeElement
   let digitalResumeElement = document.getElementById("digitalResumeElement");
-  //githubLinkElement = "happyHappy";
   if (digitalResumeElement) {
     digitalResumeElement.href = data.links.digitalResume.url;
     console.log(data.links.digitalResume.url);
   } else {
     console.error("Element with class 'digitalResumeElement' not found.");
   }
+  //profileImageElement
+  let profileImageElement = document.getElementById("profileImageElement");
+  if (profileImageElement) {
+    profileImageElement.src = data.links.ProfilePicture.url;
+    console.log(data.links.ProfilePicture.url);
+  } else {
+    console.error("Element with class 'profileImageElement' not found.");
+  }
+
+
 }
 
 // GSAP animations

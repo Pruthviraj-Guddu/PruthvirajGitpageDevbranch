@@ -28,11 +28,15 @@ window.data = {
         username: "pruthvirajma",
         url: "https://www.linkedin.com/in/pruthvirajma",
       },
-      
     },
   },
-  links :{
-    digitalResume : {url : "https://pruthviraj-guddu.github.io/PruthvirajResume.html"},
+  links: {
+    digitalResume: {
+      url: "https://pruthviraj-guddu.github.io/PruthvirajResume.html",
+    },
+    ProfilePicture: {
+      url: "https://avatars.githubusercontent.com/u/59650445?v=4",
+    },
   },
   ProjectExperience: [
     {
