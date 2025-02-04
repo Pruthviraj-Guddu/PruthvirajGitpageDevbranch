@@ -1,0 +1,158 @@
+window.data = {
+  meta: {
+    theme: "actual",
+  },
+  basics: {
+    firstName: "Pikkak chu",
+    name: "Pruthviraj Mundargi",
+    label: "MS in Data Science Graduate",
+    image: "https://avatars.githubusercontent.com/u/59650445?v=4",
+    summary:
+      "My name is Pruthviraj Mundargi aka {Guddu } a passionate software developer with a Master′s in Computer Science from Drexel University, Philadelphia (July 2024). With hands-on experience in Android and cross-platform app development, I specialize in building dynamic, scalable solutions using technologies like <u>Xamarin</u>, <u>C#</u>, <u>SQL</u>, <u>AngularJS</u>, <u>NodeJS</u>, and more. My career began as an intern at 'Practo Technologies', where I contributed to improving healthcare technology, from enhancing user experiences to optimizing app performance. I then transitioned to 'Zinemind Technologies', where I engineered cross-platform apps for industries ranging from sports ERP to aerospace. I′ve developed secure mobile applications, crafted APIs for seamless data integration, and built real estate and aviation management systems. Currently, at 'Actifi, Inc.', I′m refining my skills in full-stack development, working on JavaScript-based assessment tools akin to Google Forms, and creating interactive features for financial advisors. My side project, a Daily Question-Answer Application, utilizes <u>Flask</u>, <u>SQLite</u>, and <u>Chart.js</u> to visualize user trends, further expanding my expertise in web technologies. I hold a Bachelor′s degree in Computer Science from REVA University, Bangalore, and a 'Diploma in Computer Science' from Bapuji Polytechnic, Davangere. I am also proficient in <u>Python</u>, <u>Java</u>, <u>Kotlin</u>, <u>PHP</u>, and various tools like <u>GitHub</u>, <u>Microsoft Visual Studio</u>, and <u>Postman</u>. With a well-rounded foundation in multiple programming languages and tools, I translate complex problems into innovative digital solutions. Let′s connect and embark on new ventures together!",
+    website: "#",
+    email: "pruthvirajam95@gmail.com",
+    location: {
+      city: "Cheltenham",
+      countryCode: "US",
+    },
+    profiles: {
+      twitter: {
+        username: "",
+        url: "https://twitter.com/",
+      },
+      github: {
+        url: "https://pruthviraj-guddu.github.io/PruthvirajGitpageDevbranch/",
+        username: "Pruthviraj-Guddu",
+      },
+      linkedin: {
+        username: "pruthvirajma",
+        url: "https://www.linkedin.com/in/pruthvirajma",
+      },
+    },
+  },
+  ProjectExperience: [
+    {
+      name: "Movie Recommendation System",
+      explanation:
+        "Led a comprehensive data cleaning process on datasets from MovieLens, IMDB, Rotten Tomatoes, and Wikipedia, processing over 20 million records to handle missing values, eliminate duplicates, and standardize formats. Conducted exploratory data analysis on over 100 movie attributes and user preferences to identify key patterns for algorithm development. Built and optimized collaborative filtering models including Singular Value Decomposition (SVD), SVD++, and Non-Negative Matrix Factorization (NMF) for predicting user ratings. Evaluated model performance using metrics like Root Mean Squared Error (RMSE) and Mean Absolute Error (MAE). Developed a Content-Based recommendation system using Cosine Similarity, Jaccard Similarity, and k-nearest neighbors (KNN) for personalized recommendations.",
+      tag: ["Python", "Pandas", "SciPy", "Machine Learning"],
+      bestLang: "Python",
+      date: "Sep 2023 – Mar 2024",
+      link: "https://github.com/AnamikaRekha1999/movie-recommendation-system",
+      viewLink: "",
+    },
+    {
+      name: "Suicide Data Acquisition and Analysis",
+      explanation:
+        "Conducted web scraping in Python to acquire a comprehensive suicide dataset from various websites, adding valuable data points. Preprocessed and manipulated the data, merging it with other datasets to ensure accuracy and consistency. Provided actionable insights for suicide prevention agencies to enhance outreach efforts.",
+      tag: ["Python", "Web Scraping", "Data Analysis"],
+      bestLang: "Python",
+      date: "Sep 2022 – Dec 2022",
+      link: "https://github.com/AnamikaRekha1999/suicide-data-analysis",
+      viewLink: "",
+    },
+  ],
+  education: [
+    {
+      endDate: "2024",
+      startDate: "2022",
+      area: "Data Science",
+      studyType: "Master of Science",
+      institution: "Drexel University, Philadelphia, PA",
+      gpa: "3.93",
+    },
+    {
+      endDate: "2021",
+      startDate: "2017",
+      area: "Computer Science and Engineering",
+      studyType: "Bachelor of Technology (Honors)",
+      institution: "APJ Abdul Kalam Technological University, Kerala, India",
+      gpa: "3.78",
+    },
+  ],
+  references: [
+    {
+      reference: "",
+      name: "",
+    },
+    {
+      reference: "",
+      name: "",
+    },
+    {
+      reference: "",
+      name: "",
+    },
+    {
+      reference: "",
+      name: "",
+    },
+  ],
+  skills: [
+    {
+      keywords: ["Python", "SQL", "C", "R", "HTML", "CSS"],
+      level: "Professional",
+      name: "Data Science",
+      situation: "Programming Languages",
+    },
+    {
+      keywords: ["Tableau"],
+      level: "Intermediate",
+      name: "Data Science",
+      situation: "Tools & Technologies",
+    },
+    {
+      keywords: ["Tableau", "Machine Learning Concepts"],
+      level: "Intermediate",
+      name: "Data Science",
+      situation: "Methodologies",
+    },
+    {
+      keywords: ["Git", "Linux", "Windows"],
+      level: "Intermediate",
+      name: "Data Science",
+      situation: "Environment/OS",
+    },
+  ],
+  awards: [
+    {
+      title: "",
+      awarder: "",
+    },
+  ],
+  work: [
+    {
+      summary:
+        "Pinnacle Healthcare Staffing provides specialized services in healthcare staffing and data analysis.",
+      name: "Pinnacle Healthcare Staffing",
+      location: "Philadelphia, PA",
+      position: "Data Analyst Intern",
+      startDate: "Sep 2024",
+      endDate: "Prsent",
+      highlights: [
+        "Utilized data collection and cleansing techniques to prepare datasets for analysis",
+        "Managed and queried databases to extract relevant information for reports",
+        "Assisted in research methodologies and report writing to support healthcare staffing strategies",
+      ],
+    },
+    {
+      summary:
+        "Cognizant Technology Solutions is a global technology and professional services company that helps clients build and modernize technology systems.",
+      name: "Cognizant Technology Solutions",
+      location: "Banglore, India",
+      position: "Programmer Analyst",
+      startDate: "Aug 2021",
+      endDate: "Sep 2022",
+      highlights: [
+        "Analyzed production issues, reviewed test scripts, and provided bug fixes to ensure smooth project deployment",
+        "Participated in CR processes, managed Azure boards, and collaborated with stakeholders during sprints, demos, and unit tests",
+      ],
+    },
+  ],
+  interests: ["Drawing", "Risk game"],
+  Relevant_Coursework: [
+    "Data Structures and Algorithms I",
+    "Data Structures and Algorithms II",
+    "Applied Machine Learning for Data Science",
+  ],
+};

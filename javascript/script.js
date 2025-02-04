@@ -1,4 +1,5 @@
 // Menu item click event
+//import data from ".data.js";
 document.addEventListener("DOMContentLoaded", function () {
   const menuItems = document.querySelectorAll(".menuBar ul li a");
   const menuBar = document.querySelector(".menuBar");
@@ -11,7 +12,9 @@ document.addEventListener("DOMContentLoaded", function () {
       });
     });
   }
-
+  injectData(data); // Handle the data as needed
+      console.log(data);
+/*
   fetch("./data/data.json")
     .then((response) => response.json())
     .then((data) => {
@@ -19,6 +22,7 @@ document.addEventListener("DOMContentLoaded", function () {
       console.log(data); // Optional: log the data for debugging
     })
     .catch((error) => console.error("Error loading JSON:", error));
+    */
 });
 
 function injectData(data) {
@@ -39,7 +43,7 @@ function injectData(data) {
   }
 
   let linkedinLinkElement =
-    document.getElementById("linkedinLinkElement")[0];
+    document.getElementById("linkedinLinkElement");
   //githubLinkElement = "happyHappy";
   if (linkedinLinkElement) {
     linkedinLinkElement.href = data.basics.profiles.linkedin.url;
