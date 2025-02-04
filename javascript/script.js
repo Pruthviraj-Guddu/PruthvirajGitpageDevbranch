@@ -13,16 +13,6 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   }
   injectData(data); // Handle the data as needed
-      console.log(data);
-/*
-  fetch("./data/data.json")
-    .then((response) => response.json())
-    .then((data) => {
-      injectData(data); // Handle the data as needed
-      console.log(data); // Optional: log the data for debugging
-    })
-    .catch((error) => console.error("Error loading JSON:", error));
-    */
 });
 
 function injectData(data) {
@@ -42,16 +32,14 @@ function injectData(data) {
     console.error("Element with ID 'githubLinkElement' not found.");
   }
 
-  let linkedinLinkElement =
-    document.getElementById("linkedinLinkElement");
+  let linkedinLinkElement = document.getElementById("linkedinLinkElement");
   //githubLinkElement = "happyHappy";
   if (linkedinLinkElement) {
     linkedinLinkElement.href = data.basics.profiles.linkedin.url;
-    console.log(data.basics.profiles.linkedin.url)
+    console.log(data.basics.profiles.linkedin.url);
   } else {
     console.error("Element with class 'linkedinLinkElement' not found.");
   }
-
 }
 
 // GSAP animations
