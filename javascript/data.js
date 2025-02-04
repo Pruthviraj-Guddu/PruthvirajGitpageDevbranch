@@ -37,6 +37,9 @@ window.data = {
     ProfilePicture: {
       url: "https://avatars.githubusercontent.com/u/59650445?v=4",
     },
+    email: {
+      url: "mailto:pruthvirajam95@gmail.com",
+    },
   },
   ProjectExperience: [
     {
