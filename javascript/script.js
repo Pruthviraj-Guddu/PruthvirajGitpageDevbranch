@@ -40,6 +40,16 @@ function injectData(data) {
   } else {
     console.error("Element with class 'linkedinLinkElement' not found.");
   }
+
+  //digitalResumeElement
+  let digitalResumeElement = document.getElementById("digitalResumeElement");
+  //githubLinkElement = "happyHappy";
+  if (digitalResumeElement) {
+    digitalResumeElement.href = data.links.digitalResume.url;
+    console.log(data.links.digitalResume.url);
+  } else {
+    console.error("Element with class 'digitalResumeElement' not found.");
+  }
 }
 
 // GSAP animations

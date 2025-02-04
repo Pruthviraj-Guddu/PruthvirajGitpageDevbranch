@@ -3,7 +3,7 @@ window.data = {
     theme: "actual",
   },
   basics: {
-    firstName: "Pikkak chu",
+    firstName: "Pruthviraj",
     name: "Pruthviraj Mundargi",
     label: "MS in Data Science Graduate",
     image: "https://avatars.githubusercontent.com/u/59650445?v=4",
@@ -28,7 +28,11 @@ window.data = {
         username: "pruthvirajma",
         url: "https://www.linkedin.com/in/pruthvirajma",
       },
+      
     },
+  },
+  links :{
+    digitalResume : {url : "https://pruthviraj-guddu.github.io/PruthvirajResume.html"},
   },
   ProjectExperience: [
     {
