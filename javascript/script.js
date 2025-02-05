@@ -32,10 +32,8 @@ function injectData(data) {
       link.href = data.about.socialLinks.linkedin.url;
     } else if (link.classList.contains("digitalResumeElement")) {
       link.href = data.about.socialLinks.digitalResume.url;
-      
     } else if (link.classList.contains("mailElement")) {
       link.href = data.about.socialLinks.email;
-      
     }
   });
 
@@ -65,8 +63,10 @@ function injectAbout(aboutData) {
   document.getElementById("nicknameElement").textContent = aboutData.title;
   document.getElementById("aboutSummary").innerHTML = aboutData.summary;
 
-  document.getElementById("githubLinkElement").href = aboutData.socialLinks.github;
-  document.getElementById("linkedinLinkElement").href = aboutData.socialLinks.linkedin;
+  document.getElementById("githubLinkElement").href =
+    aboutData.socialLinks.github;
+  document.getElementById("linkedinLinkElement").href =
+    aboutData.socialLinks.linkedin;
   document.getElementById("mailElement").href = aboutData.socialLinks.email;
 }
 // Work Experience start
@@ -159,27 +159,33 @@ function injectProjects(projectsData) {
 // inject projects end
 //inject certification start
 function injectCertifications(certificationsData) {
-  let certificationsContainer = document.getElementById("certifications-container");
+  let certificationsContainer = document.getElementById(
+    "certifications-container"
+  );
   certificationsContainer.innerHTML = ""; // Clear existing content
 
-  certificationsData.forEach(cert => {
-      let certHTML = `
+  certificationsData.forEach((cert) => {
+    let certHTML = `
           <div class="cert-card">
               <h2 class="cert-title">${cert.name}</h2>
               <p><strong>Issuer:</strong> ${cert.issuer}</p>
               <p><strong>Issued:</strong> ${cert.issued}</p>
               <p><strong>Credential ID:</strong> ${cert.credentialId}</p>
-              ${cert.link ? `
+              ${
+                cert.link
+                  ? `
               <a href="${cert.link}" target="_blank">
                   <button class="cert-button">
                       Show certificate
                       <img height="20" width="20" src="Images/website icon/icons/2849800_chain_link_linked_multimedia_icon.svg" alt="Show Certificate">
                   </button>
-              </a>` : ""}
+              </a>`
+                  : ""
+              }
           </div>
       `;
 
-      certificationsContainer.innerHTML += certHTML;
+    certificationsContainer.innerHTML += certHTML;
   });
 }
 //inject certification end
