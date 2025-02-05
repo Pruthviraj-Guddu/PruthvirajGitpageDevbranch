@@ -2,6 +2,50 @@ window.data = {
   meta: {
     theme: "actual",
   },
+  about: {
+    firstName: "Pruthviraj",
+    fulltName: "Pruthviraj Mundargi",
+    nickname: "Guddu",
+    title: "The Nerd",
+    profileImage: "https://avatars.githubusercontent.com/u/59650445?v=4",
+    summary: `
+      My name is Pruthviraj Mundargi aka <b>Guddu</b>, a passionate software developer with a Master's in Computer Science from
+      <u>Drexel University</u>, Philadelphia (July 2024). With hands-on experience in Android and cross-platform app development,
+      I specialize in building dynamic, scalable solutions using technologies like <b>Xamarin</b>, <b>C#</b>, <b>SQL</b>, <b>AngularJS</b>, <b>NodeJS</b>, and more.
+
+      <br /><br />
+
+      My career began as an intern at <u>Practo Technologies</u>, where I contributed to improving healthcare technology, 
+      from enhancing user experiences to optimizing app performance. I then transitioned to <u>Zinemind Technologies</u>, 
+      where I engineered cross-platform apps for industries ranging from sports ERP to aerospace. 
+      I have developed secure mobile applications, crafted APIs for seamless data integration, and built real estate and aviation management systems.
+
+      <br /><br />
+
+      Currently, at <u>Actifi, Inc.</u>, I'm refining my skills in full-stack development, working on JavaScript-based assessment tools akin to Google Forms,
+      and creating interactive features for financial advisors. My side project, a Daily Question-Answer Application, utilizes 
+      <b>Flask</b>, <b>SQLite</b>, and <b>Chart.js</b> to visualize user trends, further expanding my expertise in web technologies.
+
+      <br /><br />
+
+      I hold a <b>Bachelor's degree in Computer Science</b> from <u>REVA University</u>, Bangalore, and a <b>Diploma in Computer Science</b> 
+      from <u>Bapuji Polytechnic</u>, Davangere. I am also proficient in <b>Python</b>, <b>Java</b>, <b>Kotlin</b>, <b>PHP</b>, and various tools like 
+      <b>GitHub</b>, <b>Microsoft Visual Studio</b>, and <b>Postman</b>.
+
+      <br /><br />
+
+      With a well-rounded foundation in multiple programming languages and tools, I translate complex problems into innovative digital solutions.
+
+      <br /><br />
+
+      Let's connect and embark on new ventures together!
+    `,
+    socialLinks: {
+      github: "https://github.com/Pruthviraj-Guddu",
+      linkedin: "https://www.linkedin.com/in/pruthvirajma",
+      email: "mailto:pruthvirajam95@gmail.com"
+    }
+  },
   basics: {
     firstName: "Pruthviraj",
     name: "Pruthviraj Mundargi",

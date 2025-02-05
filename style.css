@@ -321,7 +321,7 @@ html {
     transform: translateY(0rem) rotateZ(0deg);
   }
 }
-
+/*
 .sec2 {
   position: relative;
   min-height: 100vh;
@@ -333,6 +333,7 @@ html {
   justify-content: space-evenly;
   border-bottom: 0.2rem solid rgb(218, 218, 218);
 }
+  */
 
 .sec2__heading {
   overflow: hidden;
@@ -1047,6 +1048,73 @@ footer {
   text-decoration: none;
   margin-bottom: 7px;
 }
+
+/*############################################################*/
+/* About Me Section */
+.sec2 {
+  text-align: center;
+  padding: 50px 20px;
+}
+
+/* Profile Image */
+/* Profile Image - Perfect Circle */
+.sec2__aboutme1Img img {
+  width: 120px;  /* Ensure width and height are equal */
+  height: 120px;
+  border-radius: 50%; /* Makes it a perfect circle */
+  object-fit: cover;  /* Ensures the image fills the circle properly */
+  display: block;
+  margin: 0 auto;
+  border: 3px solid #6f23e1; /* Optional: Adds a border */
+}
+
+
+/* Name & Title */
+#firstNameElement {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-top: 10px;
+  color: #222;
+}
+
+#nicknameElement {
+  font-size: 1.5rem;
+  color: #e66060;
+}
+
+/* Social Icons */
+.sec2__aboutme1Social ul {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  list-style: none;
+  padding: 0;
+}
+
+.sec2__aboutme1Social ul li {
+  display: inline-block;
+}
+
+.sec2__aboutme1Social ul li a {
+  font-size: 2rem;
+  color: #333;
+  transition: color 0.3s ease-in-out;
+}
+
+.sec2__aboutme1Social ul li a:hover {
+  color: #e66060;
+}
+
+/* About Text */
+.sec2__aboutme2 p {
+  font-size: 1.4rem;
+  line-height: 1.8;
+  text-align: left;
+  max-width: 800px;
+  margin: auto;
+  color: #444;
+}
+
 
 #skills-container {
   display: flex;

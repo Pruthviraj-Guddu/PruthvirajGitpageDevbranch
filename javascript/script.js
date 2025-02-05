@@ -47,7 +47,7 @@ function injectData(data) {
   } else {
     console.error("Element with class 'profileImageElement' not found.");
   }
-
+  injectAbout(window.data.about);
   // inject Work Experience start
   injectWorkExperience(window.data.work);
 
@@ -56,6 +56,18 @@ function injectData(data) {
   // inject projects
   injectProjects(window.data.projects);
   injectCertifications(window.data.certifications);
+}
+
+//inject about section
+function injectAbout(aboutData) {
+  document.getElementById("profileImageElement").src = aboutData.profileImage;
+  document.getElementById("firstNameElement").textContent = aboutData.fulltName;
+  document.getElementById("nicknameElement").textContent = aboutData.title;
+  document.getElementById("aboutSummary").innerHTML = aboutData.summary;
+
+  document.getElementById("githubLinkElement").href = aboutData.socialLinks.github;
+  document.getElementById("linkedinLinkElement").href = aboutData.socialLinks.linkedin;
+  document.getElementById("mailElement").href = aboutData.socialLinks.email;
 }
 // Work Experience start
 function injectWorkExperience(workData) {
