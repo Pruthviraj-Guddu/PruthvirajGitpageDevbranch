@@ -239,6 +239,63 @@ window.data = {
       buttonText: "View Page",
     },
   ],
+  certifications: [
+    {
+      name: "Verified International Academic Qualifications",
+      issuer: "World Education Services",
+      issued: "Jun 2022",
+      credentialId: "1ae87d68-0440-4ee4-a458-8bf568efffe8",
+      link: "https://www.credly.com/badges/1ae87d68-0440-4ee4-a458-8bf568efffe8"
+    },
+    {
+      name: "Identifying, Monitoring, and Analyzing Risk and Incident Response and Recovery",
+      issuer: "Coursera",
+      issued: "Dec 2020",
+      credentialId: "RH7S62UNXDHB",
+      link: "https://www.coursera.org/account/accomplishments/verify/RH7S62UNXDHB"
+    },
+    {
+      name: "AWS Fundamentals: Addressing Security Risk",
+      issuer: "Coursera",
+      issued: "Dec 2020",
+      credentialId: "VAFK2N2ZC63D",
+      link: "https://www.coursera.org/account/accomplishments/verify/VAFK2N2ZC63D"
+    },
+    {
+      name: "Google Cloud Essentials",
+      issuer: "Qwiklabs",
+      issued: "Aug 2019",
+      credentialId: "XXXXXX",
+      link: "https://www.cloudskillsboost.google/public_profiles/e6e03eec-caa3-4bf3-a82c-469132a4ad9c/badges/109004"
+    },
+    {
+      name: "Cloud Study Jam-Kubernetes Engine: Qwik Start",
+      issuer: "Qwiklabs",
+      issued: "Aug 19, 2019",
+      credentialId: "XXXXXX",
+      link: "https://www.cloudskillsboost.google/public_profiles/e6e03eec-caa3-4bf3-a82c-469132a4ad9c/badges/108952"
+    },
+    {
+      name: "Certificate Program on .NET Technologies - Level 2",
+      issuer: "NIIT Limited",
+      issued: "Apr 2017",
+      credentialId: "XXXX"
+    },
+    {
+      name: "Advanced Certified Hardware and Networking Professional",
+      issuer: "Indian Institute Of Hardware Technology (IIHT)",
+      issued: "Mar 18, 2016",
+      credentialId: "DAV-1314-0011",
+      link: "https://learn.microsoft.com/api/achievements/share/en-us/PruthvirajGuddu-9780/3XXLD3LH"
+    },
+    {
+      name: "Create a mobile app with Xamarin.Forms",
+      issuer: "Microsoft",
+      issued: "Mar 2021",
+      credentialId: "4C5AA87F62B5FA28",
+      link: "https://learn.microsoft.com/api/achievements/share/en-us/PruthvirajGuddu-9780/3XXLD3LH"
+    }
+  ],
 
   interests: ["Drawing", "Risk game"],
   Relevant_Coursework: [

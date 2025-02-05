@@ -1170,3 +1170,70 @@ footer {
 .project-button:hover {
   background: #d45555;
 }
+
+/* Certifications Grid */
+/* Certifications Grid - Horizontal Layout */
+#certifications-container {
+  display: flex;
+  flex-direction: column; /* Aligns items in a vertical column */
+  align-items: center;
+  gap: 30px;
+  padding: 20px;
+  max-width: 1000px; /* Prevents it from stretching too much */
+  margin: auto;
+}
+
+/* Certification Card - Full Width */
+.cert-card {
+  width: 100%;
+  max-width: 800px; /* Keeps the content readable */
+  background: white;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease-in-out;
+  text-align: left; /* Aligns text to the left */
+}
+
+.cert-card:hover {
+  transform: scale(1.02);
+}
+
+/* Certification Title */
+.cert-title {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #222;
+}
+
+/* Certification Text */
+.cert-card p {
+  font-size: 1.6rem;
+  color: #444;
+  line-height: 1.6;
+}
+
+/* Certification Button */
+.cert-button {
+  background: #e66060;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1.4rem;
+  transition: background 0.3s ease-in-out;
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.cert-button img {
+  margin-left: 10px;
+}
+
+.cert-button:hover {
+  background: #ebb3b3;
+}
+

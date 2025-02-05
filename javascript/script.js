@@ -55,7 +55,7 @@ function injectData(data) {
   injectSkills(window.data.skills);
   // inject projects
   injectProjects(window.data.projects);
-  console.log(window.data.projects);
+  injectCertifications(window.data.certifications);
 }
 // Work Experience start
 function injectWorkExperience(workData) {
@@ -145,6 +145,32 @@ function injectProjects(projectsData) {
 }
 
 // inject projects end
+//inject certification start
+function injectCertifications(certificationsData) {
+  let certificationsContainer = document.getElementById("certifications-container");
+  certificationsContainer.innerHTML = ""; // Clear existing content
+
+  certificationsData.forEach(cert => {
+      let certHTML = `
+          <div class="cert-card">
+              <h2 class="cert-title">${cert.name}</h2>
+              <p><strong>Issuer:</strong> ${cert.issuer}</p>
+              <p><strong>Issued:</strong> ${cert.issued}</p>
+              <p><strong>Credential ID:</strong> ${cert.credentialId}</p>
+              ${cert.link ? `
+              <a href="${cert.link}" target="_blank">
+                  <button class="cert-button">
+                      Show certificate
+                      <img height="20" width="20" src="Images/website icon/icons/2849800_chain_link_linked_multimedia_icon.svg" alt="Show Certificate">
+                  </button>
+              </a>` : ""}
+          </div>
+      `;
+
+      certificationsContainer.innerHTML += certHTML;
+  });
+}
+//inject certification end
 
 // GSAP animations
 const tl = gsap.timeline({ defaults: { ease: "power1.out" } });
