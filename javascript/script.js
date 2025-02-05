@@ -53,6 +53,9 @@ function injectData(data) {
 
   // inject skills
   injectSkills(window.data.skills);
+  // inject projects
+  injectProjects(window.data.projects);
+  console.log(window.data.projects);
 }
 // Work Experience start
 function injectWorkExperience(workData) {
@@ -85,24 +88,56 @@ function injectSkills(skillsData) {
   skillsContainer.innerHTML = ""; // Clear existing content
 
   skillsData.forEach((skillCategory) => {
-    // Get the category name (e.g., "Languages", "Tools")
     let categoryName = Object.keys(skillCategory)[0];
-    let skillList = skillCategory[categoryName]; // Extract skills array
+    let skillList = skillCategory[categoryName];
 
     let skillHTML = `
-          <div class="col-12 col-sm-4">
+          <div class="col-12 col-md-6 col-lg-4 skill-card">
               <div class="featurette-icon"><i class="fab fa-###"></i></div>
-              <h3>${categoryName}</h3>
+              <h3 class="skill-title">${categoryName}</h3>
               <hr color="#e66060" />
               <br />
-              <p>${skillList.join("<br />")}</p>
+              <p class="skill-text">${skillList.join("<br />")}</p>
           </div>
       `;
 
     skillsContainer.innerHTML += skillHTML;
   });
 }
+
 // inject skills end
+// inject projects start
+function injectProjects(projectsData) {
+  let projectsContainer = document.getElementById("projects-container");
+  projectsContainer.innerHTML = ""; // Clear existing content
+
+  projectsData.forEach(project => {
+      let projectHTML = `
+          <a style="text-decoration: none" href="${project.link}" target="_blank">
+              <div class="project-card" data-aos="fade-up" data-aos-delay="800">
+                  <div class="project-box">
+                      <div class="project-img">
+                          <img src="${project.img}" width="200" height="200" />
+                      </div>
+                      <h2 class="project-title">${project.name} <br />${project.date}</h2>
+                      <p class="project-text">
+                          ${project.description} <br />
+                          <strong>Technology:</strong> ${project.technologies ? project.technologies.join(", ") : "N/A"} <br />
+                          <strong>Functionality:</strong> ${project.functionality ? project.functionality.join(", ") : "N/A"}
+                      </p>
+                      <button>${project.buttonText}</button>
+                  </div>
+              </div>
+          </a>
+      `;
+
+      projectsContainer.innerHTML += projectHTML;
+  });
+}
+
+
+
+// inject projects end
 
 // GSAP animations
 const tl = gsap.timeline({ defaults: { ease: "power1.out" } });
