@@ -28,11 +28,9 @@ function injectData(data) {
   socialLinks.forEach((link) => {
     if (link.classList.contains("githubLinkElement")) {
       link.href = data.basics.profiles.github.url;
-    }
-    else if (link.classList.contains("linkedinLinkElement")) {
+    } else if (link.classList.contains("linkedinLinkElement")) {
       link.href = data.basics.profiles.linkedin.url;
-    }
-    else if (link.classList.contains("digitalResumeElement")) {
+    } else if (link.classList.contains("digitalResumeElement")) {
       link.href = data.links.digitalResume.url;
       console.log(data.links.digitalResume.url);
     } else if (link.classList.contains("mailElement")) {
@@ -49,7 +47,35 @@ function injectData(data) {
   } else {
     console.error("Element with class 'profileImageElement' not found.");
   }
+
+  // inject Work Experience start
+  injectWorkExperience(window.data.work);
 }
+// Work Experience start
+function injectWorkExperience(workData) {
+  let workContainer = document.getElementById("work-experience");
+  workContainer.innerHTML = ""; // Clear existing content
+
+  workData.forEach((job) => {
+    let jobHTML = `
+          <h2 style="font-size: 2.2rem">${job.name}</h2>
+          <h3 style="font-size: 1.8rem">
+            <strong>${job.position}</strong>
+          </h3>
+          <p><strong>Location:</strong> ${job.location}</p>
+          <p><strong>Duration:</strong> ${job.startDate} - ${job.endDate}</p>
+          <ul>
+            ${job.highlights
+              .map((highlight) => `<li>${highlight}</li>`)
+              .join("")}
+          </ul>
+          <br />
+      `;
+
+    workContainer.innerHTML += jobHTML;
+  });
+}
+// Work Experience end
 
 // GSAP animations
 const tl = gsap.timeline({ defaults: { ease: "power1.out" } });
