@@ -50,6 +50,9 @@ function injectData(data) {
 
   // inject Work Experience start
   injectWorkExperience(window.data.work);
+
+  // inject skills
+  injectSkills(window.data.skills);
 }
 // Work Experience start
 function injectWorkExperience(workData) {
@@ -76,6 +79,30 @@ function injectWorkExperience(workData) {
   });
 }
 // Work Experience end
+// inject skills start
+function injectSkills(skillsData) {
+  let skillsContainer = document.getElementById("skills-container");
+  skillsContainer.innerHTML = ""; // Clear existing content
+
+  skillsData.forEach((skillCategory) => {
+    // Get the category name (e.g., "Languages", "Tools")
+    let categoryName = Object.keys(skillCategory)[0];
+    let skillList = skillCategory[categoryName]; // Extract skills array
+
+    let skillHTML = `
+          <div class="col-12 col-sm-4">
+              <div class="featurette-icon"><i class="fab fa-###"></i></div>
+              <h3>${categoryName}</h3>
+              <hr color="#e66060" />
+              <br />
+              <p>${skillList.join("<br />")}</p>
+          </div>
+      `;
+
+    skillsContainer.innerHTML += skillHTML;
+  });
+}
+// inject skills end
 
 // GSAP animations
 const tl = gsap.timeline({ defaults: { ease: "power1.out" } });

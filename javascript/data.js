@@ -172,6 +172,31 @@ window.data = {
       ],
     },
   ],
+  //skills
+  skills: [
+    {
+      Languages: [
+        "C/C++",
+        "C#",
+        "Java",
+        "Kotlin",
+        "Python",
+        "SQL",
+        "HTML, CSS, JavaScript, PHP",
+      ],
+    },
+    {
+      Tools: [
+        "GitHub",
+"Microsoft Visual Studio",
+"Postman",
+"Android Studio",
+"IntelliJ IDEA",
+      ],
+    },
+    
+  ],
+
   interests: ["Drawing", "Risk game"],
   Relevant_Coursework: [
     "Data Structures and Algorithms I",
