@@ -18,7 +18,7 @@ document.addEventListener("DOMContentLoaded", function () {
 function injectData(data) {
   let firstNameElement = document.getElementsByClassName("firstNameElement")[0];
   if (firstNameElement) {
-    firstNameElement.textContent = data.basics.firstName;
+    firstNameElement.textContent = data.about.firstName;
   } else {
     console.error("Element with class 'FirstNameHtml' not found.");
   }
@@ -27,23 +27,23 @@ function injectData(data) {
   let socialLinks = document.querySelectorAll(".socialLink");
   socialLinks.forEach((link) => {
     if (link.classList.contains("githubLinkElement")) {
-      link.href = data.basics.profiles.github.url;
+      link.href = data.about.socialLinks.github.url;
     } else if (link.classList.contains("linkedinLinkElement")) {
-      link.href = data.basics.profiles.linkedin.url;
+      link.href = data.about.socialLinks.linkedin.url;
     } else if (link.classList.contains("digitalResumeElement")) {
-      link.href = data.links.digitalResume.url;
-      console.log(data.links.digitalResume.url);
+      link.href = data.about.socialLinks.digitalResume.url;
+      
     } else if (link.classList.contains("mailElement")) {
-      link.href = data.links.email.url;
-      console.log(data.links.email.url);
+      link.href = data.about.socialLinks.email;
+      
     }
   });
 
   //profileImageElement
   let profileImageElement = document.getElementById("profileImageElement");
   if (profileImageElement) {
-    profileImageElement.src = data.links.ProfilePicture.url;
-    console.log(data.links.ProfilePicture.url);
+    profileImageElement.src = data.about.profileImage;
+    console.log(data.about.profileImage);
   } else {
     console.error("Element with class 'profileImageElement' not found.");
   }

@@ -1053,7 +1053,7 @@ footer {
 /* About Me Section */
 .sec2 {
   text-align: center;
-  padding: 50px 20px;
+  padding: 50px 50px;
 }
 
 /* Profile Image */
@@ -1107,7 +1107,7 @@ footer {
 
 /* About Text */
 .sec2__aboutme2 p {
-  font-size: 1.4rem;
+  font-size: 1.6rem;
   line-height: 1.8;
   text-align: left;
   max-width: 800px;

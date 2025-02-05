@@ -41,29 +41,6 @@ window.data = {
       Let's connect and embark on new ventures together!
     `,
     socialLinks: {
-      github: "https://github.com/Pruthviraj-Guddu",
-      linkedin: "https://www.linkedin.com/in/pruthvirajma",
-      email: "mailto:pruthvirajam95@gmail.com"
-    }
-  },
-  basics: {
-    firstName: "Pruthviraj",
-    name: "Pruthviraj Mundargi",
-    label: "MS in Data Science Graduate",
-    image: "https://avatars.githubusercontent.com/u/59650445?v=4",
-    summary:
-      "My name is Pruthviraj Mundargi aka {Guddu } a passionate software developer with a Master′s in Computer Science from Drexel University, Philadelphia (July 2024). With hands-on experience in Android and cross-platform app development, I specialize in building dynamic, scalable solutions using technologies like <u>Xamarin</u>, <u>C#</u>, <u>SQL</u>, <u>AngularJS</u>, <u>NodeJS</u>, and more. My career began as an intern at 'Practo Technologies', where I contributed to improving healthcare technology, from enhancing user experiences to optimizing app performance. I then transitioned to 'Zinemind Technologies', where I engineered cross-platform apps for industries ranging from sports ERP to aerospace. I′ve developed secure mobile applications, crafted APIs for seamless data integration, and built real estate and aviation management systems. Currently, at 'Actifi, Inc.', I′m refining my skills in full-stack development, working on JavaScript-based assessment tools akin to Google Forms, and creating interactive features for financial advisors. My side project, a Daily Question-Answer Application, utilizes <u>Flask</u>, <u>SQLite</u>, and <u>Chart.js</u> to visualize user trends, further expanding my expertise in web technologies. I hold a Bachelor′s degree in Computer Science from REVA University, Bangalore, and a 'Diploma in Computer Science' from Bapuji Polytechnic, Davangere. I am also proficient in <u>Python</u>, <u>Java</u>, <u>Kotlin</u>, <u>PHP</u>, and various tools like <u>GitHub</u>, <u>Microsoft Visual Studio</u>, and <u>Postman</u>. With a well-rounded foundation in multiple programming languages and tools, I translate complex problems into innovative digital solutions. Let′s connect and embark on new ventures together!",
-    website: "#",
-    email: "pruthvirajam95@gmail.com",
-    location: {
-      city: "Cheltenham",
-      countryCode: "US",
-    },
-    profiles: {
-      twitter: {
-        username: "",
-        url: "https://twitter.com/",
-      },
       github: {
         url: "https://pruthviraj-guddu.github.io/PruthvirajGitpageDevbranch/",
         username: "Pruthviraj-Guddu",
@@ -72,19 +49,13 @@ window.data = {
         username: "pruthvirajma",
         url: "https://www.linkedin.com/in/pruthvirajma",
       },
+      email: "mailto:pruthvirajam95@gmail.com",
+      digitalResume: {
+        url: "https://pruthviraj-guddu.github.io/PruthvirajResume.html",
+      },
     },
   },
-  links: {
-    digitalResume: {
-      url: "https://pruthviraj-guddu.github.io/PruthvirajResume.html",
-    },
-    ProfilePicture: {
-      url: "https://avatars.githubusercontent.com/u/59650445?v=4",
-    },
-    email: {
-      url: "mailto:pruthvirajam95@gmail.com",
-    },
-  },
+
   ProjectExperience: [
     {
       name: "Movie Recommendation System",
@@ -259,7 +230,10 @@ window.data = {
       date: "April 2024",
       description: "Developed a full stack Flash application...",
       technologies: ["HTML5", "CSS3", "Bootstrap", "JavaScript", "Flask"],
-      functionality: ["Buying and selling furniture", "Promotes sustainability"],
+      functionality: [
+        "Buying and selling furniture",
+        "Promotes sustainability",
+      ],
       img: "Images/project imgs/furniture.png",
       link: "https://github.com/Pruthviraj-Guddu/FurniFlexSustainability",
       buttonText: "Repository 🔐",
@@ -289,56 +263,56 @@ window.data = {
       issuer: "World Education Services",
       issued: "Jun 2022",
       credentialId: "1ae87d68-0440-4ee4-a458-8bf568efffe8",
-      link: "https://www.credly.com/badges/1ae87d68-0440-4ee4-a458-8bf568efffe8"
+      link: "https://www.credly.com/badges/1ae87d68-0440-4ee4-a458-8bf568efffe8",
     },
     {
       name: "Identifying, Monitoring, and Analyzing Risk and Incident Response and Recovery",
       issuer: "Coursera",
       issued: "Dec 2020",
       credentialId: "RH7S62UNXDHB",
-      link: "https://www.coursera.org/account/accomplishments/verify/RH7S62UNXDHB"
+      link: "https://www.coursera.org/account/accomplishments/verify/RH7S62UNXDHB",
     },
     {
       name: "AWS Fundamentals: Addressing Security Risk",
       issuer: "Coursera",
       issued: "Dec 2020",
       credentialId: "VAFK2N2ZC63D",
-      link: "https://www.coursera.org/account/accomplishments/verify/VAFK2N2ZC63D"
+      link: "https://www.coursera.org/account/accomplishments/verify/VAFK2N2ZC63D",
     },
     {
       name: "Google Cloud Essentials",
       issuer: "Qwiklabs",
       issued: "Aug 2019",
       credentialId: "XXXXXX",
-      link: "https://www.cloudskillsboost.google/public_profiles/e6e03eec-caa3-4bf3-a82c-469132a4ad9c/badges/109004"
+      link: "https://www.cloudskillsboost.google/public_profiles/e6e03eec-caa3-4bf3-a82c-469132a4ad9c/badges/109004",
     },
     {
       name: "Cloud Study Jam-Kubernetes Engine: Qwik Start",
       issuer: "Qwiklabs",
       issued: "Aug 19, 2019",
       credentialId: "XXXXXX",
-      link: "https://www.cloudskillsboost.google/public_profiles/e6e03eec-caa3-4bf3-a82c-469132a4ad9c/badges/108952"
+      link: "https://www.cloudskillsboost.google/public_profiles/e6e03eec-caa3-4bf3-a82c-469132a4ad9c/badges/108952",
     },
     {
       name: "Certificate Program on .NET Technologies - Level 2",
       issuer: "NIIT Limited",
       issued: "Apr 2017",
-      credentialId: "XXXX"
+      credentialId: "XXXX",
     },
     {
       name: "Advanced Certified Hardware and Networking Professional",
       issuer: "Indian Institute Of Hardware Technology (IIHT)",
       issued: "Mar 18, 2016",
       credentialId: "DAV-1314-0011",
-      link: "https://learn.microsoft.com/api/achievements/share/en-us/PruthvirajGuddu-9780/3XXLD3LH"
+      link: "https://learn.microsoft.com/api/achievements/share/en-us/PruthvirajGuddu-9780/3XXLD3LH",
     },
     {
       name: "Create a mobile app with Xamarin.Forms",
       issuer: "Microsoft",
       issued: "Mar 2021",
       credentialId: "4C5AA87F62B5FA28",
-      link: "https://learn.microsoft.com/api/achievements/share/en-us/PruthvirajGuddu-9780/3XXLD3LH"
-    }
+      link: "https://learn.microsoft.com/api/achievements/share/en-us/PruthvirajGuddu-9780/3XXLD3LH",
+    },
   ],
 
   interests: ["Drawing", "Risk game"],
