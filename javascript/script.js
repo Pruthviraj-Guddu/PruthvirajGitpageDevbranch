@@ -25,14 +25,6 @@ function injectData(data) {
     console.error("Element with class 'FirstNameHtml' not found.");
   }
 
-  //profileImageElement
-  let profileImageElement = document.getElementById("profileImageElement");
-  if (profileImageElement) {
-    profileImageElement.src = data.about.profileImage;
-    console.log(data.about.profileImage);
-  } else {
-    console.error("Element with class 'profileImageElement' not found.");
-  }
   injectAbout(window.data.about);
   // inject Work Experience start
   injectWorkExperience(window.data.work);
