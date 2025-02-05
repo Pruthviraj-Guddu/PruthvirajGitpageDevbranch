@@ -1047,3 +1047,32 @@ footer {
   text-decoration: none;
   margin-bottom: 7px;
 }
+
+#skills-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around; /* Distributes skills evenly */
+  text-align: center;
+}
+
+.skill-card {
+  flex: 1 1 30%; /* Ensures equal distribution */
+  min-width: 250px;
+  max-width: 350px;
+  margin: 10px;
+  padding: 20px;
+  /*background: rgba(240, 240, 240, 0.9);
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); */
+}
+
+.skill-title {
+  font-size: 1.8rem; /* Keeps the font size consistent */
+  font-weight: bold;
+  color: #333;
+}
+
+.skill-text {
+  font-size: 1.7rem;
+  color: #555;
+}
