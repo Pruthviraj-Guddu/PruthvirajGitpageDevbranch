@@ -133,30 +133,42 @@ window.data = {
   ],
   work: [
     {
-      summary:
-        "Pinnacle Healthcare Staffing provides specialized services in healthcare staffing and data analysis.",
-      name: "Pinnacle Healthcare Staffing",
-      location: "Philadelphia, PA",
-      position: "Data Analyst Intern",
-      startDate: "Sep 2024",
+      name: "Actifi, Inc.",
+      location:
+        "Remote (600 US-169, St Louis Park, Minnesota, United States 55426)",
+      position:
+        "Intern Software Engineer (AngularJS, JavaScript, NodeJS, PHP&amp; SQL",
+      startDate: "Oct 2024",
       endDate: "Prsent",
       highlights: [
-        "Utilized data collection and cleansing techniques to prepare datasets for analysis",
-        "Managed and queried databases to extract relevant information for reports",
-        "Assisted in research methodologies and report writing to support healthcare staffing strategies",
+        "side project : Daily Question-Answer Application Developed a web app using Flask and SQLite that allows users to log in, answer daily questions, view answer history with graphical trends (Chart.js), manage reminders, and interact with the SQL database directly. Tech Stack: Flask, SQLite, Chart.js, HTML/CSS",
+        "Contributed in creating assessment tools using JavaScript, similar to Google Forms, incorporating complex formulas to dynamically link roadmaps and opportunities for financial advisors, improving client engagement and decision-making processes.",
       ],
     },
     {
-      summary:
-        "Cognizant Technology Solutions is a global technology and professional services company that helps clients build and modernize technology systems.",
-      name: "Cognizant Technology Solutions",
-      location: "Banglore, India",
-      position: "Programmer Analyst",
-      startDate: "Aug 2021",
-      endDate: "Sep 2022",
+      name: "Zinemind Technologies Pvt. Ltd",
+      location: "Remote (India)",
+      position:
+        "Software Engineer (Cross platform apps with Xamarin with C# & SQL)",
+      startDate: "Aug 2020",
+      endDate: "Nov 2021",
       highlights: [
-        "Analyzed production issues, reviewed test scripts, and provided bug fixes to ensure smooth project deployment",
-        "Participated in CR processes, managed Azure boards, and collaborated with stakeholders during sprints, demos, and unit tests",
+        "Developed a robust API for Front Foot, a SportsERP solution, enhancing data integration and user experience for sports management.",
+        "Engineered the Ostor Mobile application for file encryption, ensuring secure data handling and compliance with industry standards.",
+        "Contributed to the development of Rapattoni MLS, a real estate multiple listing service, optimizing property listing and search functionalities.",
+        "Designed and implemented a mobile interface for Bombardier Inc., improving accessibility and user interaction for jet management systems.",
+      ],
+    },
+    {
+      name: "Practo Technologies Private Limited",
+      location: "Bangalore, India",
+      position: "Intern as Android App Developer (Kotlin & Java)",
+      startDate: "Jan 2020",
+      endDate: "July 2020",
+      highlights: [
+        "Collaborated with the marketing team to execute and analyze the effectiveness of Android app campaigns, resulting in a 13% increase in user engagement.",
+        "Enhanced user experience by personalizing landing and listing pages within the app, leading to a 9% increase in user retention.",
+        "Identified and resolved critical issues with doctor profile pages and the online consultation module, improving the app’s reliability and user satisfaction by implementing pagination.",
       ],
     },
   ],
