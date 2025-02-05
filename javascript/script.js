@@ -16,26 +16,14 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 function injectData(data) {
+  injectSocialLinks(data.about.socialLinks);
+
   let firstNameElement = document.getElementsByClassName("firstNameElement")[0];
   if (firstNameElement) {
     firstNameElement.textContent = data.about.firstName;
   } else {
     console.error("Element with class 'FirstNameHtml' not found.");
   }
-
-  //social links
-  let socialLinks = document.querySelectorAll(".socialLink");
-  socialLinks.forEach((link) => {
-    if (link.classList.contains("githubLinkElement")) {
-      link.href = data.about.socialLinks.github.url;
-    } else if (link.classList.contains("linkedinLinkElement")) {
-      link.href = data.about.socialLinks.linkedin.url;
-    } else if (link.classList.contains("digitalResumeElement")) {
-      link.href = data.about.socialLinks.digitalResume.url;
-    } else if (link.classList.contains("mailElement")) {
-      link.href = data.about.socialLinks.email;
-    }
-  });
 
   //profileImageElement
   let profileImageElement = document.getElementById("profileImageElement");
@@ -56,18 +44,28 @@ function injectData(data) {
   injectCertifications(window.data.certifications);
 }
 
+function injectSocialLinks(socialLinksurl) {
+  //social links
+  let socialLinks = document.querySelectorAll(".socialLink");
+  socialLinks.forEach((link) => {
+    if (link.classList.contains("githubLinkElement")) {
+      link.href = socialLinksurl.github.url;
+    } else if (link.classList.contains("linkedinLinkElement")) {
+      link.href = socialLinksurl.linkedin.url;
+    } else if (link.classList.contains("digitalResumeElement")) {
+      link.href = socialLinksurl.digitalResume.url;
+    } else if (link.classList.contains("mailElement")) {
+      link.href = socialLinksurl.email;
+    }
+  });
+}
+
 //inject about section
 function injectAbout(aboutData) {
   document.getElementById("profileImageElement").src = aboutData.profileImage;
   document.getElementById("firstNameElement").textContent = aboutData.fulltName;
   document.getElementById("nicknameElement").textContent = aboutData.title;
   document.getElementById("aboutSummary").innerHTML = aboutData.summary;
-
-  document.getElementById("githubLinkElement").href =
-    aboutData.socialLinks.github;
-  document.getElementById("linkedinLinkElement").href =
-    aboutData.socialLinks.linkedin;
-  document.getElementById("mailElement").href = aboutData.socialLinks.email;
 }
 // Work Experience start
 function injectWorkExperience(workData) {
