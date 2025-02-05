@@ -111,31 +111,42 @@ function injectProjects(projectsData) {
   let projectsContainer = document.getElementById("projects-container");
   projectsContainer.innerHTML = ""; // Clear existing content
 
-  projectsData.forEach(project => {
-      let projectHTML = `
-          <a style="text-decoration: none" href="${project.link}" target="_blank">
-              <div class="project-card" data-aos="fade-up" data-aos-delay="800">
-                  <div class="project-box">
-                      <div class="project-img">
-                          <img src="${project.img}" width="200" height="200" />
-                      </div>
-                      <h2 class="project-title">${project.name} <br />${project.date}</h2>
-                      <p class="project-text">
-                          ${project.description} <br />
-                          <strong>Technology:</strong> ${project.technologies ? project.technologies.join(", ") : "N/A"} <br />
-                          <strong>Functionality:</strong> ${project.functionality ? project.functionality.join(", ") : "N/A"}
-                      </p>
-                      <button>${project.buttonText}</button>
-                  </div>
+  projectsData.forEach((project) => {
+    let projectHTML = `
+          <div class="project-card">
+              <img src="${project.img}" alt="${
+      project.name
+    }" class="project-img">
+              <div class="project-info">
+                  <h3>${project.name}</h3>
+                  <p><strong>Date:</strong> ${project.date}</p>
+                  <p>${project.description}</p>
+                  <p><strong>Technologies:</strong> ${
+                    project.technologies
+                      ? project.technologies.join(", ")
+                      : "N/A"
+                  }</p>
+                  <ul>
+                      ${
+                        project.functionality
+                          ? project.functionality
+                              .map((func) => `<li>${func}</li>`)
+                              .join("")
+                          : ""
+                      }
+                  </ul>
+                  <a href="${project.link}" target="_blank">
+                      <button class="project-button">${
+                        project.buttonText
+                      }</button>
+                  </a>
               </div>
-          </a>
+          </div>
       `;
 
-      projectsContainer.innerHTML += projectHTML;
+    projectsContainer.innerHTML += projectHTML;
   });
 }
-
-
 
 // inject projects end
 
